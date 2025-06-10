@@ -1,1 +1,12 @@
+# Step 1: Import libraries
+import pandas as pd
+import matplotlib.pyplot as plt
+import seaborn as sns
+
+# Step 2: Load dataset
+df = pd.read_csv('../data/hansen_tree_cover_loss_bc.csv')
+
+# Step 3: Preview data
+print(df.shape)
+df.head()
 
